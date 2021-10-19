@@ -2,6 +2,10 @@ import React from "react";
 import { 
     FacebookShareButton,
     FacebookIcon,
+    TwitterShareButton,
+    TwitterIcon,
+    RedditShareButton,
+    RedditIcon,
     LinkedinShareButton,
     LinkedinIcon
 } from "react-share";
@@ -13,7 +17,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
-                            <p>London Ontario</p>
+                            <p>London, Ontario, Canada</p>
                         </div>
                         <div className="d-flex">
                             <a href="tel:226-582-0601">+1(226)582-0601</a>
@@ -40,10 +44,12 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+
+                    
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
                             <FacebookShareButton
-                            url={"https://www.cbc.ca/news"}
+                            url={"https://www.linkedin.com/in/kim-joon-791ba4180/"}
                             quote={"FullStack Developer"}
                             hashtag="#javascript"
                             >
@@ -56,12 +62,27 @@ const Footer = () => {
                             >
                                 <LinkedinIcon className="mx-3" size={36}/>    
                             </LinkedinShareButton>   
+                            <TwitterShareButton
+                            url={"https://www.linkedin.com/in/kim-joon-791ba4180/"}
+                            quote={"FullStack Developer"}
+                            hashtag="#javascript"
+                            >
+                                <TwitterIcon className="mx-3" size={36}/>    
+                            </TwitterShareButton>  
+                            <RedditShareButton
+                            url={"https://www.linkedin.com/in/kim-joon-791ba4180/"}
+                            quote={"FullStack Developer"}
+                            hashtag="#javascript"
+                            >
+                                <RedditIcon className="mx-3" size={36}/>    
+                            </RedditShareButton>  
                         </div>
                         <p className="pt-3 text-center">
                             Copyright&copy;
                             {new Date().getFullYear()}&nbsp;Joon Kim | All Rights Reserved
                         </p>
                     </div>
+                    
                 </div>
             </div>
         </div>

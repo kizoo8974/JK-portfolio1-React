@@ -5,7 +5,7 @@ import { faAd, faDesktop } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
     return (
-        <div className="services">
+        <div id="services" className="services">
             <h1 className="py-5">my services</h1>
                 <div className="container">
                     <div className="row">
@@ -15,7 +15,7 @@ const Services = () => {
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/></div>
                                 <h3>Web Design</h3>
-                                <p>I approach each project individually and always focus on the result.</p>
+                                <p>Bootstrap, Sass</p>
                             </div>
                         </div>
                         {/* - */}
@@ -23,7 +23,7 @@ const Services = () => {
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/></div>
                                 <h3>Web Development</h3>
-                                <p>Your website will be build with an new proven technologies.</p>
+                                <p>React, PHP, Git</p>
                             </div>
                         </div>
                         {/* - */}
@@ -39,7 +39,7 @@ const Services = () => {
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faAd} size="2x"/></div>
                                 <h3>Graphic Design</h3>
-                                <p>I approach each project individually and always focus on the result.</p>
+                                <p>Photoshop, Illustrator</p>
                             </div>
                         </div>
                     </div>

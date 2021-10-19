@@ -26,12 +26,12 @@ nav {
 }
 
 .logo {
-  width: 11 rem;
+  width: 6rem;
 }
 
 /*------------------ MENU LINKS -------------*/
 nav a.nav-link {
-  font-size : .8rem;
+  font-size : .9rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 
@@ -45,7 +45,7 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
-  /*border-top: 0.1875rem solid var(--primary-dark);*/
+  /* border-top: 0.1875rem solid var(--primary-dark); */
 }
 
 .navbar-brand {
@@ -61,7 +61,7 @@ nav ul li {
 
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -77,7 +77,7 @@ nav ul li {
   background: url(background-2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -166,9 +166,21 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.about-heading {
+  margin-left: 5rem;
+}
+
+.about-p {
+  margin: 2rem;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;
+  }
+  .about-heading {
+    margin-left: 7rem;
   }
 }
 
@@ -284,7 +296,7 @@ nav ul li {
   width: 95%;
   padding: 0 0.9375rem;
   color: var(--primary-dark-grey);
-  direction: ltr;
+  /* direction: ltr; */
 }
 
 .timeline-content h3 {
@@ -314,6 +326,11 @@ nav ul li {
     direction: ltr;
 
   }
+
+  .timeline-content {
+    margin: 1.5rem 0;
+  }
+  
 }
 
 /******************************* PORTFOLIO **********************/
@@ -370,6 +387,10 @@ nav ul li {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.popupbox-wrapper {
+  margin-top: 7rem;
 }
 
 /*------------------- OVERFLOW BOX ------------------------*/
@@ -624,6 +645,7 @@ textarea.form-control {
   
   .contacts .container {
     padding: 0 1rem;
+    margin: 4rem 0 2rem 0;
   }
 
   .contacts p {
@@ -656,3 +678,19 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
+/*------------------- MEDIA  ------------------------*/
+
+@media(max-width: 768px) {
+  .d-flex a {
+    margin: 1rem 0 1rem 0;
+  }
+  .col-lg-4 {
+    margin: 1.5rem 0 1.5rem 0;
+  }
+  .col-lg-3 {
+    margin: 1.5rem 0 1.5rem 0;
+  }
+ .pt-3 {
+   margin-top: 1.5rem;
+ }
+}

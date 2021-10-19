@@ -3,7 +3,7 @@ import author from "../me.jpg";
 
 const AboutMe = () => {
     return (
-        <div className="container py-5">
+        <div id="about" className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
                     <div className="photo-wrap mb-5">
@@ -12,13 +12,9 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">about me</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, non aut iusto, ab architecto illum esse alias eos harum eaque vel aliquam. Quaerat, incidunt corporis? Nostrum porro reiciendis temporibus. Atque.
-
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quos maxime quis fugiat impedit assumenda, nulla eum expedita adipisci et hic atque possimus, molestias explicabo. Officia natus consequatur ab nobis.
-
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit dolor illo maxime ullam accusamus dolorem, vel voluptatibus eum at itaque eos tempore, asperiores ipsum laboriosam porro necessitatibus dolore incidunt sit.
-                    </p>
+                    <div className="about-p">
+                    Hard working and effective Web Developer. Fluent in Korean &amp; English, astute and deadline-driven. Strong understanding of Web development and Graphic design and cutting-edge I.T environment, coupled with Political Science, Restaurant manager background.
+                    </div>
                 </div>
             </div>
         </div>
