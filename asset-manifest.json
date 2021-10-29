@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/JK-portfolio1-React/static/css/main.eb52e0f6.chunk.css",
+    "main.js": "/JK-portfolio1-React/static/js/main.44b2d24f.chunk.js",
+    "main.js.map": "/JK-portfolio1-React/static/js/main.44b2d24f.chunk.js.map",
+    "runtime-main.js": "/JK-portfolio1-React/static/js/runtime-main.6f585cf1.js",
+    "runtime-main.js.map": "/JK-portfolio1-React/static/js/runtime-main.6f585cf1.js.map",
+    "static/css/2.c82f72da.chunk.css": "/JK-portfolio1-React/static/css/2.c82f72da.chunk.css",
+    "static/js/2.9e94141f.chunk.js": "/JK-portfolio1-React/static/js/2.9e94141f.chunk.js",
+    "static/js/2.9e94141f.chunk.js.map": "/JK-portfolio1-React/static/js/2.9e94141f.chunk.js.map",
+    "static/js/3.98851b6b.chunk.js": "/JK-portfolio1-React/static/js/3.98851b6b.chunk.js",
+    "static/js/3.98851b6b.chunk.js.map": "/JK-portfolio1-React/static/js/3.98851b6b.chunk.js.map",
+    "index.html": "/JK-portfolio1-React/index.html",
+    "static/css/2.c82f72da.chunk.css.map": "/JK-portfolio1-React/static/css/2.c82f72da.chunk.css.map",
+    "static/css/main.eb52e0f6.chunk.css.map": "/JK-portfolio1-React/static/css/main.eb52e0f6.chunk.css.map",
+    "static/js/2.9e94141f.chunk.js.LICENSE.txt": "/JK-portfolio1-React/static/js/2.9e94141f.chunk.js.LICENSE.txt",
+    "static/media/11.8deaf908.jpg": "/JK-portfolio1-React/static/media/11.8deaf908.jpg",
+    "static/media/22.903f58e1.jpg": "/JK-portfolio1-React/static/media/22.903f58e1.jpg",
+    "static/media/33.aad6c5a1.JPG": "/JK-portfolio1-React/static/media/33.aad6c5a1.JPG",
+    "static/media/44.22fc7a53.PNG": "/JK-portfolio1-React/static/media/44.22fc7a53.PNG",
+    "static/media/55.25b84774.JPG": "/JK-portfolio1-React/static/media/55.25b84774.JPG",
+    "static/media/66.9c3f0b25.JPG": "/JK-portfolio1-React/static/media/66.9c3f0b25.JPG",
+    "static/media/EmailJS.f1af50cc.png": "/JK-portfolio1-React/static/media/EmailJS.f1af50cc.png",
+    "static/media/Ract-Hook-Form.6eae821b.png": "/JK-portfolio1-React/static/media/Ract-Hook-Form.6eae821b.png",
+    "static/media/React-particles-js.fa59d21c.png": "/JK-portfolio1-React/static/media/React-particles-js.fa59d21c.png",
+    "static/media/React-popupbox.62021302.png": "/JK-portfolio1-React/static/media/React-popupbox.62021302.png",
+    "static/media/React-responsive-carousel.67b0c3c0.png": "/JK-portfolio1-React/static/media/React-responsive-carousel.67b0c3c0.png",
+    "static/media/App.css": "/JK-portfolio1-React/static/media/bg-image.e09b376d.png",
+    "static/media/logo.d4d6fd06.png": "/JK-portfolio1-React/static/media/logo.d4d6fd06.png",
+    "static/media/me.f3c208c1.jpg": "/JK-portfolio1-React/static/media/me.f3c208c1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f585cf1.js",
+    "static/css/2.c82f72da.chunk.css",
+    "static/js/2.9e94141f.chunk.js",
+    "static/css/main.eb52e0f6.chunk.css",
+    "static/js/main.44b2d24f.chunk.js"
+  ]
+}
