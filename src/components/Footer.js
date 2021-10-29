@@ -38,8 +38,8 @@ const Footer = () => {
                             <div className="col">
                                 <a className="footer-nav">Experience</a>
                                 <br/>
-                                <a className="footer-nav">Portfolio</a>
-                                <br/>
+                                {/* <a className="footer-nav">Portfolio</a>
+                                <br/> */}
                                 <a className="footer-nav">Contacts</a>
                             </div>
                         </div>

@@ -15,7 +15,7 @@ const Services = () => {
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/></div>
                                 <h3>Web Design</h3>
-                                <p>Bootstrap, Sass</p>
+                                <p>Bootstrap, Figma, Sass</p>
                             </div>
                         </div>
                         {/* - */}
@@ -23,7 +23,7 @@ const Services = () => {
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/></div>
                                 <h3>Web Development</h3>
-                                <p>React, PHP, Git</p>
+                                <p>React, PHP</p>
                             </div>
                         </div>
                         {/* - */}
@@ -31,7 +31,7 @@ const Services = () => {
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x"/></div>
                                 <h3>Google Ads</h3>
-                                <p>Your service or product will apear at the top of the Google search</p>
+                                <p>Google Analytics</p>
                             </div>
                         </div>
                         {/* - */}

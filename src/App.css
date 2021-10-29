@@ -171,7 +171,8 @@ nav ul li {
 }
 
 .about-p {
-  margin: 2rem;
+  margin: 4rem;
+  font-size: 1.3rem;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
@@ -181,6 +182,11 @@ nav ul li {
   }
   .about-heading {
     margin-left: 7rem;
+  }
+  .about-p {
+    margin: 2rem;
+    font-size: 0.95rem;
+    border-top: 0.1875rem solid var(--primary-dark);
   }
 }
 
@@ -333,7 +339,7 @@ nav ul li {
   
 }
 
-/******************************* PORTFOLIO **********************/
+/******************************* React **********************/
 
 .portfolio-wrapper {
   background: var(--primary-light-grey);
@@ -344,6 +350,15 @@ nav ul li {
   color: var(--primary-orange);
 } 
 
+.portfolio-wrapper h4 {
+  color: var(--primary-black);
+  background: var(--primary-orange);
+  display: inline-block;
+  border: 1px solid var(--primary-orange);
+  padding: 1rem 2rem 1rem 2rem;
+  
+} 
+
 .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-orange);
@@ -352,7 +367,17 @@ nav ul li {
 
 .portfolio-image-box {
   position: relative;
-  margin: 2rem;
+  margin: 1rem;
+}
+
+@media(max-width: 768px) {
+  
+  .portfolio-wrapper h4 {
+    display: block;
+    width: 70%;
+    padding: 1rem 0.5rem 0.5rem 0.8rem;  
+  } 
+  
 }
 
 /*------------------- OVERFLOW BOX ------------------------*/
@@ -391,6 +416,11 @@ nav ul li {
 
 .popupbox-wrapper {
   margin-top: 7rem;
+}
+
+.popupbox-content h1 {
+  padding: 1.5rem 0 1.5rem 0;
+  margin-left: 0.75rem;
 }
 
 /*------------------- OVERFLOW BOX ------------------------*/
@@ -438,7 +468,7 @@ nav ul li {
   }
 }
 
-/******************************* TESTIMONIALS **********************/
+/******************************* Hobbies **********************/
 
 .testimonials {
   background-image: url(bg-image.png);
